@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="restaurant-logo">
+                <img src="assets/logo.png" alt="Restaurant Logo">
+                <h3>Your Restaurant Menu</h3>
+                <p>Your Slogan</p>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">1. Home</a></li>
+                    <li><a href="#orders">2. Your Orders</a></li>
+                    <li><a href="#wallet">3. Wallet</a></li>
+                    <li><a href="#profile">4. Profile</a></li>
+                    <li><a href="#logout">5. Logout</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>More About Us</h4>
+                <ul>
+                    <li><a href="#blog">1. Our blog</a></li>
+                    <li><a href="#dishes">2. Upcoming Dishes</a></li>
+                    <li><a href="#story">3. Our Story</a></li>
+                    <li><a href="#social">4. Social Media Links</a></li>
+                </ul>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Navbar -->
+            <header class="navbar">
+
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="🔍  Search Food Item"
+                >
+
+                <div class="nav-buttons">
+                    <button class="signup-btn">Signup</button>
+                    <button class="login-btn">Login</button>
+                    <img src="assets/logo.png" alt="Profile">
+                </div>
+
+            </header>
+
+
+            <!-- Screen 1: Landing Page -->
+            <section id="home-screen">
+
+                <div class="banner">
+                    <img src="assets/banner.png" alt="Restaurant Special Offer">
+                </div>
+
+                <h3 class="section-title">Menu</h3>
+
+                <!-- Food items will be displayed here -->
+                <div class="food-container" id="landing-menu">
+
+                </div>
+
+            </section>
+
+
+            <!-- Screen 2: Menu Page -->
+           <section id="menu-screen">
+    <h3 class="section-title">Menu</h3>
+
+    <div class="food-container" id="menu">
+    </div>
+</section>
+
+        </main>
+
+    </div>
+
+
+    <!-- Order notification -->
+    <div id="order-message"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
